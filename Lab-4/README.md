@@ -19,7 +19,7 @@ This program counts the number of comments that is present in the given C file t
 
 To compile and run:
 ```bash
-flex q2.l
+flex q3.l
 gcc lex.yy.c -o comment_count
 ./comment_count test.c
 ```
