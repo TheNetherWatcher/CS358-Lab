@@ -9,7 +9,7 @@ Counts the number of words in user input.
 
 To compile and run:
 ```bash
-lex q2.l
+flex q2.l
 gcc lex.yy.c -o word_count
 ./word_count
 ```
