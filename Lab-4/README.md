@@ -15,7 +15,7 @@ gcc lex.yy.c -o word_count
 ```
 
 ### 2. Comment Counter (q3.l)
-This program counts the number of comments that is present in the given C file that is given in the input
+Counts the number of comments that are present in the given C file that is given in the input
 
 To compile and run:
 ```bash
