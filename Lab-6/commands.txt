@@ -1,0 +1,9 @@
+lex q1.l 
+yacc -dy q1.y 
+gcc lex.yy.c y.tab.c -w
+./a.out
+
+lex q2.l 
+yacc -dy q2.y 
+gcc lex.yy.c y.tab.c -w
+./a.out
