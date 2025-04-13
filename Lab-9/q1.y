@@ -45,9 +45,6 @@ Expression : STRING {
 
 /**
  * Checks if a string is a palindrome
- * 
- * @param text The string to check
- * @return 1 if palindrome, 0 otherwise
  */
 int isPalindrome(char *text) {
     int length = strlen(text);

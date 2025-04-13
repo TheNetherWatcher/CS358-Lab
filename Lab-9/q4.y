@@ -3,8 +3,8 @@
 #include <stdlib.h>
 #include <string.h>
 
-int yylex(void);            // Add this
-void yyerror(const char *); // Add this
+int yylex(void);            
+void yyerror(const char *); 
 %}
 
 %%
@@ -28,3 +28,4 @@ int main() {
 void yyerror(const char *s) {
     fprintf(stderr, "Syntax Error: %s\n", s);
 }
+
